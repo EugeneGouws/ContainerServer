@@ -44,9 +44,9 @@ before display.
 
 
 
-!\[Initial State](screenshots/initial.png)
+![Initial State](screenshots/initial.png)
 
-!\[Data Received](screenshots/received.png)
+![Data Received](screenshots/received.png)
 
 
 
@@ -68,7 +68,7 @@ before display.
 
 > \*\*Note:\*\* Start Container Server \*\*before\*\* launching 
 
-> \[Container Client](https://github.com/EugeneGouws/Container), 
+> [Container Client](https://github.com/EugeneGouws/Container), 
 
 > otherwise the client will not connect.
 
