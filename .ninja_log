@@ -1,0 +1,14 @@
+# ninja log v6
+5	591	7945586529040469	ContainerServer_autogen/timestamp	e72543654a086a86
+5	591	7945586529040469	ContainerServer_autogen/mocs_compilation.cpp	e72543654a086a86
+5	591	7945586529040469	E:/ContainerServer/ContainerServer_autogen/timestamp	e72543654a086a86
+5	591	7945586529040469	E:/ContainerServer/ContainerServer_autogen/mocs_compilation.cpp	e72543654a086a86
+596	667	7945586530372239	ContainerServer_autogen/EWIEGA46WW/qrc_resource.cpp	b0bf6084922b6bd2
+596	667	7945586530372239	E:/ContainerServer/ContainerServer_autogen/EWIEGA46WW/qrc_resource.cpp	b0bf6084922b6bd2
+688	1260	7945586530704238	CMakeFiles/ContainerServer.dir/ContainerServer_autogen/EWIEGA46WW/qrc_resource.cpp.obj	8649c64ac7c9be93
+679	2871	7945586530623945	CMakeFiles/ContainerServer.dir/server.cpp.obj	995d303d28dbbe9d
+667	3398	7945586530452444	CMakeFiles/ContainerServer.dir/ContainerServer_autogen/mocs_compilation.cpp.obj	fa0d29fa0c157e22
+683	3436	7945586530623945	CMakeFiles/ContainerServer.dir/xmlreader.cpp.obj	ad0c79a0292579a7
+670	3568	7945586530521361	CMakeFiles/ContainerServer.dir/main.cpp.obj	7614b87a10454259
+673	3778	7945586530561348	CMakeFiles/ContainerServer.dir/mainwindow.cpp.obj	94ef8e34913dfdad
+3778	4006	7945586561606072	ContainerServer.exe	f43dddf3e46e3ed6

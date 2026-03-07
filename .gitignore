@@ -1,0 +1,33 @@
+# Qt Creator settings
+.qtcreator/
+*.user
+*.user.*
+
+# CMake build files
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Compiled output
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+*.pdb
+*.ilk
+*.exp
+
+# Qt auto-generated files
+moc_*
+ui_*
+qrc_*
+
+# Debug/Release folders
+debug/
+release/
