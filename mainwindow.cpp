@@ -8,6 +8,7 @@
 #include <QPushButton>
 #include <QTcpSocket>
 #include <QStandardItemModel>
+#include <QNetworkInterface>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -26,6 +27,19 @@ MainWindow::MainWindow(QWidget *parent)
     // Widgets
     QLabel *label = new QLabel("Listening to port: ");
     QLabel *portLabl = new QLabel(QString::number(server->getPort()));
+
+    // Get local IP
+    QString ipAddress;
+    QList<QHostAddress> list = QNetworkInterface::allAddresses();
+    for (QHostAddress addr : list) {
+        if (addr != QHostAddress::LocalHost && addr.toIPv4Address()) {
+            ipAddress = addr.toString();
+            break;
+        }
+    }
+    QLabel *ipLabel = new QLabel("Server IP: " + ipAddress);
+
+
     QTableView *table = new QTableView();
 
     // Table model and initial setup
@@ -38,9 +52,11 @@ MainWindow::MainWindow(QWidget *parent)
     // Assemble
     topLine->addWidget(label);
     topLine->addWidget(portLabl);
+    topLine->addWidget(ipLabel);
 
     mainLayout->addLayout(topLine);
     mainLayout->addWidget(table);
+
 
     // Finalize
     centralWidget->setLayout(mainLayout);
